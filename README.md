@@ -26,6 +26,6 @@ os.environ["REPLICATE_API_TOKEN"] = "your_api_token
 
 ## Run the application:
 streamlit run genCoverLetter.py
-This will launch the web app in your browser, typically at: http://localhost:8888
+This will launch the web app in your browser, typically at: http://localhost:8501
 
 <img width="421" alt="blank" src="https://github.com/raniakh/CoverMuse/assets/11587508/14b87b9c-bd57-4def-859d-9869ba6e7345">
