@@ -33,8 +33,6 @@ if bool(cover_letter_info):
         )
         generated_cover_letter = " ".join([item for item in response])
 
-    generated_cover_letter = generated_cover_letter + ("\n## Test - this line was added after response was generated## "
-                                                       "\n")
 
     st.subheader("Generated Cover Letter:")
     st.write(generated_cover_letter)
